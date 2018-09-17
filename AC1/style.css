@@ -1,0 +1,69 @@
+h1 
+{
+    margin: 0px auto;
+    font-family: 'Karla', sans-serif;
+    width: 80%;
+}
+p 
+{
+	margin: 0px auto;
+	width: 80%;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+}
+table
+{
+	width: 80%;
+	border-collapse: collapse;
+}
+td, th 
+{
+	background-color: #f3fdfd;
+	border: 1px solid #ccc;
+	padding: 10px 5px;
+	font-size: 12px;
+	font-family: 'Karla', sans-serif;
+	text-align: center
+}
+div 
+{
+	margin: 0px auto;
+	width: 80%;
+}
+.sem-borda 
+{
+	background-color: transparent;
+	border: 0px none;
+}
+.ac 
+{
+	background-color: #00FF00;
+}
+.mediaac 
+{
+	background-color: #00CC00;
+}
+.prova 
+{
+	background-color: #FFF300;
+}
+.sub 
+{
+	background-color: #FFD701;
+}
+.mediafinal 
+{
+	background-color: #00FFF3;
+}
+
+
+@media only screen and (max-width: 600px) {
+	div,
+	h1,
+	p,
+	table
+	{
+		width: 100%;
+	}
+}

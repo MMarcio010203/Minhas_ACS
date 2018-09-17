@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formúlario de Cadastro</title>
+    <meta charset="utf-8" />
+    <link rel= "icon" href="impacta.ico">
+    <link rel="stylesheet" type="text/css" href="form2.css">
+</head>
+<body>
+    
+    <form  method="post">
+        <fieldset class="teste"><legend>Formulário de Cadastro de Aluno</legend>
+            <p><label for="cNome">Nome: <input type="text" name="tNome" id="cNome" size="45" maxlength="100" required="Nome Completo" /></p></label>
+            <div class="email">
+            <p><label for="cMail">Email: <input type="email" name="tMail" id="cMail" size="45" maxlength="100" required="Informe o Email" /></label>
+            </div>
+            <p><label for="cIda">Idade: <input type="number" name="tIda" id="cIda" size="3" maxlength="3" required="Obrigatório"/></p></label> 
+            
+            <p><label for="cSexo">Sexo:</label></p>
+            <input type="radio" name="tSexo" id="cMasc"required/> <label ="cMasc">Masculino</label><br>
+            <input type="radio" name="tSexo" id="cFem"required/> <label for="cFem">Feminino</label><br>
+
+            <p><label for="cCurso">Curso:</label></p>
+            <input type="radio" name="tCurso" id="cAds"required/> <label for="cAds">ADS</label><br>
+            <input type="radio" name="tCurso" id="cGti"required/> <label for="cGti">GTI</label><br>
+            <input type="radio" name="tCurso" id="cBd"required/> <label for="cBd">BD</label><br>
+        </fieldset><br>
+
+        <fieldset id="opcional"><legend>Opcional</legend>
+            <p><label for="cTel">Telefone: <input type="tel" name="tTel" id="cTel" size="11" maxlength="11" required="DDD e Número" /></p></label>
+            <p><label for="cCor">Cor do Crachá: <input type="text" name="tCor" id="cCor"  required="Hexadecimal" /></p></label>
+            <p><label for="cLink">Link do Gihub: <input type="link" name="tLink" id="cLink" size="20" maxlength="20"/></p></label>
+            <p><label for="cDate">Data de Ingresso no Curso: <input type="date" name="tData" id="cData"/></p></label>
+        </fieldset><br>
+        <button type="submit">Enviar Dados</button>
+    </form>
+</body>
+</html>

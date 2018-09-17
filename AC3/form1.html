@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript"src="aluno/aluno.js"></script>
+
+	<meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>marcio</title>
+		
+	<link rel="stylesheet" type="text/css" href="form1.css">		
+	
+</head>
+<body>
+	<div class="form">
+	<form  method="post">
+		<h1 >Formulario do aluno</h1><br>
+
+		<label for="nome">Nome completo:</label>
+		<input type="text" id="nome" name="nome_completo" maxlength="100" required>
+	<p>
+
+		<label for="e-mail">E-mail:</label>
+		<input type="email" id="e-mail" name="e_mail" maxlength="100" required >
+
+	<p>
+		<h2>Assunto da mensagem</h2>
+	<p>
+		<label for="radio0">Bug</label>
+		<input type="radio" id="radio0" value="bug" name="assunto"required><br>
+
+		<label for="radio1">Reclamações</label>
+		<input type="radio" id="radio1" value="reclamacoes" name="assunto"required><br>
+
+		<label for="radio2">Sugestões</label>
+		<input type="radio" id="radio2" value="sugestões" name="assunto"required>
+		
+	<p>
+	
+		
+
+ 	<fieldset>
+	<legend>Texto da mensagem</legend>
+	<textarea cols="50" rows="10" required></textarea>
+	<p>
+	<h3>Palavras chave</h3>
+	<p>
+		<label for="checkbox0">problemas</label>
+		<input type="checkbox" id="checkbox0" value="problemas" name="pl0"><br>problemas
+
+		<label for="checkbox1">tecnologia</label>
+		<input type="checkbox" id="checkbox1" value="tecnologia" name="pl1"><br>
+
+		<label for="checkbox2">impacta</label>
+		<input type="checkbox" id="checkbox2" value="impacta" name="pl2"><br>
+
+		<label for="checkbox3">email</label>
+		<input type="checkbox" id="checkbox3" value="email" name="pl3"><br>
+		</fieldset>
+	<p>
+		<button type="submit">Continue</button>
+
+	
+		<button type="reset">Reset</button>
+		
+		</button>
+	</form>
+	</div>
+</body>
+</html>
